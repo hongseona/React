@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App from './component/App2';
+import App from './component/App4';
+// import App from './component/App2';
+// import App from './component/App2';
+
 // import 는 외부 파일의 함수, 라이브러리 사용할 떄 미리 가져오기.(메모리 로드)
 
 // App 은 화면을 구성하는 컴포넌트 이름
@@ -12,7 +15,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // => root.render() . 리액트 최신 버전은 React.StrictMode 를 사용(개발과정 오류체크)
 root.render(
   <React.StrictMode>
-  {/* <App /> */}
     <App />
     {/* 테스트중.. */}
   </React.StrictMode>

@@ -3,6 +3,7 @@ import './App.css';
 
 // Day_01: JSX 문법 맛보기
 function App() {
+  // 주석기호 (자바스크립트)
   return (
     <div className="App">
       <header className="App-header">
